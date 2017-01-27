@@ -1,0 +1,55 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	background-color: #DFDFDF;
+	overflow: scroll;
+	font-family: Ubuntu, sans-serif;
+	font-size: 16px;
+	height: 2000px;
+}
+h1{
+	color: black;
+	float: left;
+	margin-left: 10px;
+	font-family: helvetica;
+	font-style: bold;
+}
+#fixed-nav{
+	background-color: rgb(130, 130, 130);
+	position: fixed;
+	width: 100%;
+	top: 0px;
+	float:left;
+}
+#ul-nav{
+	list-style-type: none;
+	float: right;
+}
+li.team{
+	float: left;
+	margin-right: 24px;
+	
+}
+li a:hover img{
+    filter: drop-shadow(10px 0px 3px #555);
+}
+.active{
+}
+img{
+	height: 48px;
+}
+
+#sidemenu{
+	background-color: white;
+	position: fixed;
+	float: left;
+	margin-top: 67px;
+	width: 20%;
+}
+#ul-sidemenu{
+	list-style-type: none;
+}
+
+#content{
+
+}
