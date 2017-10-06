@@ -1,9 +1,13 @@
+html {
+  font-size: 10px;
+  background-image: url("img/goal.jpg");
+  background-size: cover;
+}
 body{
 	margin: 0px;
 	padding: 0px;
 	background-color: #DFDFDF;
 	overflow: scroll;
-	font-size: 1em;
 }
 h1{
 	color: black;
