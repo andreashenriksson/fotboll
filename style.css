@@ -3,19 +3,18 @@ body{
 	padding: 0px;
 	background-color: #DFDFDF;
 	overflow: scroll;
-	font-family: Ubuntu, sans-serif;
-	font-size: 16px;
-	height: 2000px;
+	font-size: 1em;
 }
 h1{
 	color: black;
 	float: left;
-	margin-left: 10px;
-	font-family: helvetica;
-	font-style: bold;
+	margin-left: 1em;
+	font-family: verdana;
+
+	
 }
 #fixed-nav{
-	background-color: rgb(130, 130, 130);
+	background-color: #777;
 	position: fixed;
 	width: 100%;
 	top: 0px;
@@ -27,7 +26,7 @@ h1{
 }
 li.team{
 	float: left;
-	margin-right: 24px;
+	margin-right: 2em;
 	
 }
 li a:hover img{
@@ -36,19 +35,9 @@ li a:hover img{
 .active{
 }
 img{
-	height: 48px;
+	height: 2.5em;
 }
 
-#sidemenu{
-	background-color: white;
-	position: fixed;
-	float: left;
-	margin-top: 67px;
-	width: 20%;
-}
-#ul-sidemenu{
-	list-style-type: none;
-}
 
 #content{
 
